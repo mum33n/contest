@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./wowjs/css/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark sticky-top bg-primary">
+        <h1 class="navbar-brand">Website</h1>
+    </nav>
+    <main class="row container-fluid justify-content-center stick">
+        <div class="col-2 col-md-3 sticky ">
+            <a class="d-block" href="#1">Lesson 1</a>
+            <a class="d-block" href="#2">Lesson 2</a>
+            <a class="d-block" href="#3">Lesson 3</a>
+        </div>  
+        <div class="col-9 col-md-7 ">
+            <div class="video-wrapper wow fadeInUp" id="1">
+                <div>
+                    <h2>Lesson 1</h2>
+                    <video controls>
+                        <source src="./mov_bbb.mp4" type="video/mp4">
+                      </video>
+                      <div class="video-text">
+                          <h5>Lorem ipsum dolor sit amet!</h5>
+                          <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, architecto dolore corporis fugiat, consectetur maiores nam totam cupiditate saepe omnis aspernatur similique quod doloribus explicabo et porro sed asperiores recusandae.
+                          </p>
+                      </div>
+                </div>
+            </div>
+            <div class="video-wrapper wow fadeInUp" id="2">
+                <div>
+                    <h2>Lesson 2</h2>
+                    <video controls>
+                        <source src="./mov_bbb.mp4" type="video/mp4">
+                      </video>
+                      <div class="video-text">
+                          <h5>Lorem ipsum dolor sit amet!</h5>
+                          <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, architecto dolore corporis fugiat, consectetur maiores nam totam cupiditate saepe omnis aspernatur similique quod doloribus explicabo et porro sed asperiores recusandae.
+                          </p>
+                      </div>
+                </div>
+            </div>
+            <div class="video-wrapper wow fadeInUp" id="3">
+                <div>
+                    <h2>Lesson 3</h2>
+                    <video controls>
+                        <source src="./mov_bbb.mp4" type="video/mp4">
+                      </video>
+                      <div class="video-text">
+                          <h5>Lorem ipsum dolor sit amet!</h5>
+                          <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, architecto dolore corporis fugiat, consectetur maiores nam totam cupiditate saepe omnis aspernatur similique quod doloribus explicabo et porro sed asperiores recusandae.
+                          </p>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="./wowjs/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
