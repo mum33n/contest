@@ -6,7 +6,7 @@ body{
 }
 .sticky{
     position: sticky;
-    top: 80px ;
+    top: 70px ;
     height: 70vh;
 }
 .video-wrapper{
@@ -27,7 +27,6 @@ video{
     padding: 0px;
     margin: 0px;
     width: 100%;
-
 }
 .video-text{
     padding: 5px;
@@ -38,4 +37,14 @@ video{
 h2{
     font-size: 1.5rem;
     font-weight: 700;
+}
+@media screen and (max-width:768px) {
+    .sticky{
+        height: auto;
+        display: flex;
+        background-color: rgb(179, 167, 167);
+        padding: 10px;
+        top: 60px ;
+        justify-content: space-around;
+    }
 }
